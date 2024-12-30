@@ -1,0 +1,25 @@
+# Ignore all files including bin files
+*
+
+# Don't ignore files with extensions
+!*.*
+
+# Don't ignore dirs
+!*/
+
+# Ignore vscode extensions
+.vscode/*
+
+# Don't ignore Makefile
+!Makefile
+
+# Don't ignore Dockerfile
+!Dockerfile
+
+# Ignore bin files
+*.exe
+*.bin
+*.bat
+
+# Ignore object files
+*.o
